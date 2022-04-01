@@ -24,7 +24,7 @@ services:
     environment:
       MYSQL_DATABASE: source
       MYSQL_PASSWORD: pass
-      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_USER: user
     image: mysql:5.7
   target:
